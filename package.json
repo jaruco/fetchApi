@@ -1,0 +1,18 @@
+{
+    "author": "jaruco",
+    "name": "test-belcorp",
+    "version": "1.0.0",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.19.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "prettier": "^2.2.1",
+        "serverless-plugin-include-dependencies": "4.1.0"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.7",
+        "serverless-dotenv-plugin": "^4.0.0",
+        "serverless-offline": "^8.7.0"
+    }
+}

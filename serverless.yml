@@ -1,0 +1,20 @@
+service: test-belcorp
+frameworkVersion: '2'
+
+plugins:
+  - serverless-offline
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+
+functions:
+  fetchApi:
+    handler: src/handler.fetchApi
+    events:
+      - http:
+          path: /phone-checked
+          method: get
+
